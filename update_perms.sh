@@ -1,0 +1,1 @@
+sudo sh ./main_update_perms.sh $@ -y dreamweb -z webdev
