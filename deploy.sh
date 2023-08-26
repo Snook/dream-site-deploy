@@ -1,1 +1,0 @@
-sudo sh ./main_deploy.sh $@ -r dreamdinners/main/trunk/src/DreamSite -y dreamweb -z webdev
