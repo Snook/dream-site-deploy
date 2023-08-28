@@ -1,4 +1,5 @@
-sudo -u dreamweb git --git-dir=./dream-site/.git pull origin main
+#!/bin/bash
+sudo -u dreamweb git -C ./dream-site pull origin main
 
 sudo chown -R dreamweb:dreamweb ./dream-site/* 2>/dev/null
 sudo chown -R dreamweb:webdev ./dream-site/includes/config 2>/dev/null
