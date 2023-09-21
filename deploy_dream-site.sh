@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo -u dreamweb git -C ./dream-site pull origin main
+sudo -u dreamweb git -C ./dream-site pull origin sandbox
 
 # Update config.ini version with git commit hash
 sed -i -e "/version =/ s/= .*/= $(sudo -u dreamweb git -C ./dream-site/ rev-parse HEAD)/" ./dream-site/includes/config/config.ini
